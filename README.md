@@ -125,10 +125,10 @@ NQ320k, T5-large, 8 GPUs, editing 100 new documents that have dev2 queries (101 
 
 | model | dev1 Hit@1 | dev1 Hit@10 | edited docs Hit@1 | edited docs Hit@10 | edited docs MRR |
 |---|---|---|---|---|---|
-| GR before editing | 0.698 | 0.872 | 0.002* | 0.006* | – |
+| GR before editing | 0.698 | 0.872 | 0.002 | 0.006 | – |
 | DOME | 0.681 | 0.863 | 0.723 | 0.762 | 0.741 |
 
-\* measured on all dev2 queries. With 101 queries, edited-doc numbers vary by about ±0.05.
+
 
 ## Citation
 
